@@ -1,0 +1,165 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.parent {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.child1 {
+  width:30%;
+  background-color: rgb(29, 10, 10);
+  color: white;
+  margin-left: 270px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.child2 {
+  width: 25%;
+  margin-top: 85px;
+}
+.title1 {
+  font-size: 24px;
+  margin-bottom: 15px;
+}
+
+.title2 {
+  font-size: 20px;
+  margin-top: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+ 
+  .child1 {
+    width: 40%;
+    margin-left: 125px;
+  }
+  .child2 {
+    width: 30%;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .parent {
+    display: block;
+  }
+ 
+  .child1 {
+    width: 70%;
+    margin-left: 65px;
+  }
+  .child2 {
+    width: 60%;
+    margin-top: 0;
+    margin-left: 60px;
+    margin-bottom: 10px;
+  }
+}
+
+.maincarousel {
+  background-color: #1c1917;
+  padding-top: 135px;
+  padding-bottom: 141px;
+}
+
+.card {
+  text-align: -webkit-center;
+}
+
+.namestyle {
+  color: white;
+  padding-top: 10px;
+}
+
+.price {
+  color: rgba(214, 200, 12, 0.792);
+}
+
+.cardStyle {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 300px;
+  padding-right: 300px;
+}
+
+.border{
+  border: 1px solid gray;
+}
+
+
+@media only screen and (max-width: 1100px) {
+
+  .cardStyle {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+}
+
+
+
+.parent-contact {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.child1-contact {
+  width:30%;
+  color: white;
+  margin-left: 150px;
+  /* margin-bottom: 400px; */
+  /* margin-top: 50px;
+  margin-bottom: 50px; */
+  /* padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; */
+}
+
+.child2-contact {
+  padding-top: 20px;
+  padding-bottom: 25px;
+  width: 50%;
+  /* margin-top: 85px; */
+}
+
+
+@media only screen and (max-width: 768px) {
+ 
+  .child1-contact {
+    width: 40%;
+    margin-left: 125px;
+  }
+  .child2-contact {
+    width: 30%;
+    margin-top: 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .parent-contact {
+    display: block;
+  }
+ 
+  .child1-contact {
+    width: 70%;
+    margin-left: 65px;
+  }
+  .child2-contact {
+    width: 60%;
+    margin-top: 0;
+    margin-left: 60px;
+    margin-bottom: 10px;
+  }
+}
