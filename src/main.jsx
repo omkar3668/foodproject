@@ -10,6 +10,9 @@ import Recipe from './Components/Recipe.jsx'
 import Blog from './Components/Blog.jsx'
 import ContactUs from './Components/ContactUs.jsx'
 import CardSlider from './Components/CardSlider.jsx'
+import Register from './Components/Register.jsx'
+import Login from './Components/Login.jsx'
+import  Error  from './Components/Error.jsx'
 
 
 const router = createBrowserRouter(
@@ -20,6 +23,9 @@ const router = createBrowserRouter(
        <Route path = 'recipe' element = {<Recipe />}/>
        <Route path='blog' element = {<Blog />}/>
        <Route path ='contactus' element = {<ContactUs />}/>
+       <Route path ='register' element = {<Register />}/>
+       <Route path ='login' element = {<Login />}/>
+       <Route path ='*' element = {<Error />}/>
       </Route>
   )
 )

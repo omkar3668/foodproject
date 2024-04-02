@@ -18,13 +18,13 @@ export default function Header(props) {
                 </Link>
                 <div className="flex items-center lg:order-2">
                     <Link
-                        to="#"
+                        to="/login"
                         className="text-white hover:hover:bg-yellow-400 focus:ring-4 focus:ring-gray-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                     >
                         Login
                     </Link>
                     <Link
-                        to="#"
+                        to="/register"
                         className="text-white bg-yellow-300 hover:bg-yellow-400 focus:ring-4 focus:ring-orange-300 font-medium rounded-lg text-sm px-4 lg:px-5 py-2 lg:py-2.5 mr-2 focus:outline-none"
                     >
                         Register
